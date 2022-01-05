@@ -13,6 +13,12 @@ span {
   width: 100%;
   margin-bottom: 100px;
 }
+.sec h1 {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+
 #u {
   width: 5%;
 }
@@ -51,6 +57,8 @@ span {
   width: 450px;
   padding-right: 10px;
 }
-.sec resume-div {
-  background-image: linear-gradient(red, blue);
+#add-bg {
+  background-image: url(images/2nd.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
 }
