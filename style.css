@@ -11,6 +11,7 @@ span {
   display: flex;
   height: 100%;
   width: 100%;
+  margin-bottom: 100px;
 }
 #u {
   width: 5%;
@@ -19,19 +20,19 @@ span {
   width: 70px;
 }
 
-#p {
+.p {
   width: 60%;
   padding: 10px;
   margin-top: 25px;
 }
-#p h1 {
+.p h1 {
   font-weight: bold;
   font-size: 40px;
 }
-#p p {
+.p p {
   font-size: 20px;
 }
-#p a {
+.p a {
   text-decoration: none;
   padding: 10px;
   border-bottom: 3px solid rgb(126, 117, 117);
@@ -40,13 +41,16 @@ span {
   color: white;
   background-image: linear-gradient(rgb(238, 191, 153), rgb(187, 109, 20));
 }
-#p a:hover {
+.p a:hover {
   border: 1px solid rgb(126, 117, 117);
 }
-#d {
+.d {
   width: 35%;
 }
-#d img {
+.d img {
   width: 450px;
   padding-right: 10px;
+}
+.sec resume-div {
+  background-image: linear-gradient(red, blue);
 }
