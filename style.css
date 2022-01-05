@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+section {
+  border: 5px solid gray;
+}
+p {
+  border: 5px solid red;
+}
